@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Colors Table View Controller-->
         <scene sceneID="r3D-Ls-92a">
             <objects>
-                <tableViewController id="kRj-zA-qcr" sceneMemberID="viewController">
+                <tableViewController id="kRj-zA-qcr" customClass="ColorsTableViewController" customModule="Rainbow__iOSPT6_" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CpZ-K0-iWr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="734.78260869565224" y="217.63392857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--Color Detail View Controller-->
         <scene sceneID="Rwp-AJ-TJN">
             <objects>
-                <viewController id="n4v-Y1-wi1" sceneMemberID="viewController">
+                <viewController id="n4v-Y1-wi1" customClass="ColorDetailViewController" customModule="Rainbow__iOSPT6_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dUS-8p-QYr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
