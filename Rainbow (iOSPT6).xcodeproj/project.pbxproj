@@ -14,6 +14,7 @@
 		51196164243D6248004C7293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51196162243D6248004C7293 /* LaunchScreen.storyboard */; };
 		5119616C243D6B82004C7293 /* ColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5119616B243D6B82004C7293 /* ColorsTableViewController.swift */; };
 		5119616E243D6BE4004C7293 /* ColorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5119616D243D6BE4004C7293 /* ColorDetailViewController.swift */; };
+		51196175243D6E5F004C7293 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51196174243D6E5F004C7293 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		51196165243D6248004C7293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5119616B243D6B82004C7293 /* ColorsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTableViewController.swift; sourceTree = "<group>"; };
 		5119616D243D6BE4004C7293 /* ColorDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailViewController.swift; sourceTree = "<group>"; };
+		51196174243D6E5F004C7293 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				51196173243D6D4F004C7293 /* Resources */,
-				51196171243D6CF3004C7293 /* View Controllers */,
-				51196170243D6CE9004C7293 /* Views */,
 				5119616F243D6CDF004C7293 /* Model */,
+				51196170243D6CE9004C7293 /* Views */,
+				51196171243D6CF3004C7293 /* View Controllers */,
 				51196165243D6248004C7293 /* Info.plist */,
 			);
 			path = "Rainbow (iOSPT6)";
@@ -70,6 +72,7 @@
 		5119616F243D6CDF004C7293 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				51196174243D6E5F004C7293 /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				51196158243D6246004C7293 /* AppDelegate.swift in Sources */,
 				5119615A243D6246004C7293 /* SceneDelegate.swift in Sources */,
 				5119616C243D6B82004C7293 /* ColorsTableViewController.swift in Sources */,
+				51196175243D6E5F004C7293 /* Color.swift in Sources */,
 				5119616E243D6BE4004C7293 /* ColorDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
